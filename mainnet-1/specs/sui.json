@@ -1,7 +1,7 @@
 {
     "proposal": {
         "title": "Add Specs: Sui Full Node RPC",
-        "description": "Adding new specification support for relaying Sui Full Node in both JSON-RPC (legacy) and gRPC data on Lava",
+        "description": "Adding new specification support for relaying Sui Full Node in both JSON-RPC (legacy) and gRPC (upcoming) data on Lava",
         "specs": [
             {
                 "index": "SUIJSONRPC",
@@ -12,7 +12,7 @@
                 "data_reliability_enabled": true,
                 "block_distance_for_finalized_data": 1,
                 "blocks_in_finalization_proof": 1,
-                "average_block_time": 1000,
+                "average_block_time": 500,
                 "allowed_block_lag_for_qos_sync": 10,
                 "shares": 1,
                 "min_stake_provider": {
@@ -1010,7 +1010,7 @@
                 "data_reliability_enabled": true,
                 "block_distance_for_finalized_data": 0,
                 "blocks_in_finalization_proof": 1,
-                "average_block_time": 1000,
+                "average_block_time": 500,
                 "allowed_block_lag_for_qos_sync": 10,
                 "shares": 1,
                 "min_stake_provider": {
